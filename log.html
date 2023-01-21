@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FEEDBACK</title>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" type="text/css" href="css/lightslider.css"/>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<script src="https://kit.fontawesome.com/c8e4d183c2.js"  crossorigin="anonymous"></script>
+</head>
+<body>
+<!--navigation-->
+<nav>
+	<div class="navigation">
+			<a href="#" class="logo">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOmKrowFTZUZPoIhND5tPRNNVOq6Ht4nk2Q&usqp=CAU" width="300" height="3000">
+			</a>
+			<ul class="menu">
+				<li><a href="organisation.php">ORGANISATION</a></li>
+				<li><a href="student.php">STUDENT</a></li>
+				<li><a href="faculty.php">FACULTY</a></li>
+				<li><a href="parent.php">PARENTS</a></li>
+				
+				<li><a href="public.php">PUBLIC</a></li>
+			</ul>
+		
+			
+		</div>				
+</nav>
+
+
+	<script type="text/javascript">
+
+	$(document).on('click','.search',function(){
+		$('.search-bar').addClass('search-bar-active')
+	});
+	
+	$(document).on('click','.search-cancel',function(){
+		$('.search-bar').removeClass('search-bar-active')
+	});
+
+	$(document).on('click','.user,.already-account',function(){
+		$('.form').addClass('login-active').removeClass('sign-up-active')
+	});
+
+	$(document).on('click','.sign-up-btn',function(){
+		$('.form').addClass('sign-up-active').removeClass('login-active')
+	});
+
+	$(document).on('click','.form-cancel',function(){
+		$('.form').removeClass('login-active').removeClass('sign-up-active')
+	});
+
+	$(document).ready(function() {
+    	$('#adaptive').lightSlider({
+        	adaptiveHeight:true,
+	        auto:true,
+       	    item:1,
+        	slideMargin:0,
+        	loop:true
+    	});
+	});
+
+	 $(document).ready(function() {
+   	 $('#autoWidth').lightSlider({
+        	autoWidth:true,
+        	loop:true,
+        	onSliderLoad: function() {
+            	$('#autoWidth').removeClass('cS-hidden');
+        	} 
+    	});  
+ 	 });
+	  $(window).scroll(function(){
+		  if($(document).scrollTop>50){
+			  $(".navigation").addClass('fix-nav');
+		  }
+		  else{
+			$(".navigation").removeClass('fix-nav');  
+		  }
+	  })
+      
+</script>
+</body>
+</html>

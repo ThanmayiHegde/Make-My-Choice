@@ -32,5 +32,11 @@ which is also taken into consideration in this project.
 
 ![img1](https://user-images.githubusercontent.com/89647793/213883320-c9122634-f465-4240-a445-40d920af9fbe.png)
 
+# How To Run
+* PHP-My Admin is needed.
+* Import the SQL file.
+* In all .php files change username and password to your PHP-My_Admin username and password for successful database connection in backend.
+* Use web browser to open localhost.
+
 
 

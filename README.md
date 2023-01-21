@@ -35,7 +35,7 @@ which is also taken into consideration in this project.
 # How To Run
 * PHP-My Admin is needed.
 * Import the SQL file.
-* In all .php files change username and password to your PHP-My_Admin username and password for successful database connection in backend.
+* In all .php files change username and password to your PHP-My_Admin username and password for successful database connection in the backend.
 * Use web browser to open localhost.
 
 

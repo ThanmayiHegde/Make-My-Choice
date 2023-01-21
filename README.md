@@ -17,11 +17,15 @@ in doing so.
 * Students,paretns,faculties and public can put forth their opinion only 
 when they create an account in this platform by signing up and then 
 logging in to give feedbacks.
+
 • Takes feedback from students about their organisations.
+
 • Takes feedbacks from faculties about their workplace and working 
 environment.
+
 • Parents begin integral part of any organisations their opinion is must, 
 which is also taken into consideration in this project.
+
 • Public are the voice of society, their views matters a lot.
 # ER  Digram
 

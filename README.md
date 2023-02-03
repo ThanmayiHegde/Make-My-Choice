@@ -1,6 +1,6 @@
 # Make-My-Choice
 Feedback management system which is developed using MySQL,PHP  in  the backend  and  using HTML,CSS,JavaScripts,JQuery in the front end development.
-
+This is a complete project including front end and back end.
 * Feedback management software is a system of processes and 
 software that empowers organizations and all such entities to 
 manage and deploy surveys.
